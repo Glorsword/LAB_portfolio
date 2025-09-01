@@ -1,4 +1,7 @@
-The following Circuit is used in general embedded applications with ATMEGA328P-AU as the microcontroller, with U3 as Clock, u2 and u1 are the non volitile storage units.
-The circuit big enough to require a separate schema layer to draw out the connection pins.
+The following circuit is designed for general embedded applications, using the ATMEGA328P-AU as the microcontroller. U3 serves as the real-time clock, while U2 and U1 provide non-volatile storage.
 
-The data scheets of the ICs were read carefully to assign the correct values to the crystals to ensure oscillation. 
+The circuit is large enough to require a separate schematic layer to clearly illustrate the connection pins.
+
+Datasheets of the ICs were carefully reviewed to select the correct crystal values and ensure stable oscillation. To improve mobility, the circuit is powered from a battery rather than a power adapter.
+
+Challenges: The use of a four-layer PCB proved time-intensive and required careful consideration of trace placement to minimize noise and coupling, especially given the compact structure.
