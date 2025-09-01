@@ -1,0 +1,5 @@
+This project uses a heart sensor (MAX30100EFD+T) to monitor heart rate, with an Arduino Nano as the controller.
+U2 is an OLED display used to show the real-time data.
+A KY-040 rotary encoder is included as an additional feature for user interaction with the system.
+
+Challenge: Working with the OLED was quite difficult because its datasheet was hard to find, making it challenging to determine the correct capacitor values.
