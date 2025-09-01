@@ -1,0 +1,6 @@
+This project was quite straightforward to design. It takes a 12 V input and uses the TP5100 IC to charge an 8.4 V lithium battery.
+
+Reading the IC’s datasheet provided the complete schematic layout.
+
+Challenge:
+A minor inconvenience was that a 10.1 µF capacitor is not manufactured as a standalone component. To achieve the required value, two capacitors (C4 and C5) were connected in parallel: one 10 µF and one 0.1 µF.
