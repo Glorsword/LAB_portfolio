@@ -1,0 +1,4 @@
+The following Circuit is used in general embedded applications with ATMEGA328P-AU as the microcontroller, with U3 as Clock, u2 and u1 are the non volitile storage units.
+The circuit big enough to require a separate schema layer to draw out the connection pins.
+
+The data scheets of the ICs were read carefully to assign the correct values to the crystals to ensure oscillation. 
