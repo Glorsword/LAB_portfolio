@@ -1,0 +1,7 @@
+This project aims to create, so to speak, an “eye” for a moving robot. The design uses D4 and D7 as IR LEDs, while D8 and D5 serve as IR sensors. Each sensor is paired with an op-amp to amplify the generated signal.
+
+The power supply can be either AC or DC, so a voltage regulator was added to the circuit. Two high-voltage N-channel MOSFETs were used as switches, controlled by the Arduino.
+
+Challenge: The logic required for implementing a simple road clearance check proved to be quite challenging, 
+because we had to program the robot to differentiate between a partially obstructed road, a completely blocked road, and the true assigned path marked with an IR reflective strip. 
+Adding a second sensor helped sharpen the generated signal and improved the robot’s ability to make accurate decisions.
