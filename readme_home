@@ -1,0 +1,6 @@
+This project aims to convert AC power from a home socket into DC through an adapter, which is then used to power an Arduino board. The Arduino is connected to sensors to control home appliances or lights using hand or facial gestures.
+U1 is the gesture sensor, which sends signals to the Arduino, and the Arduino in turn controls the relays.
+
+Relays were chosen instead of MOSFETs in order to handle higher voltages safely.
+
+Challenge: The datasheet of the sensor was somewhat difficult to understand, and its use was unusual for us at the time.
