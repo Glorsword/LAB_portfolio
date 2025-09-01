@@ -1,0 +1,11 @@
+Project Description
+The purpose of this circuit is to provide an output of either 5 V or 3.3 V, selectable via the switch S1.
+
+U1 and U2 are voltage regulators.
+
+The outputs are available through the screw terminals J1–J7.
+
+Challenges
+The project was fairly straightforward, with minimal issues. The signals were neither sensitive nor high-power, so no changes to trace width were required.
+
+A bug appeared during the PCB layout phase: one resistor had both pins connected to ground, creating a short circuit at the top output pins. This was identified and resolved.
