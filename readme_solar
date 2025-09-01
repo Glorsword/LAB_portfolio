@@ -1,0 +1,4 @@
+This project intends to convert power from the solar panels connected to j2 and j3, and output the power through j1.
+U2A works as an inverter, and U1 is voltage regulator, and U2G is the power source for the inverter.
+
+The main Challange faced was, that the solar panels were producing a fluctiating power , so we neded to add a regulator, which itself came with the extra circuitry.
