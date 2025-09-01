@@ -1,1 +1,4 @@
-This project has the function of controlling the speed of a moter connected to its pins.
+This project is designed to control the speed of a motor connected to its pins.
+It uses a potentiometer to adjust the frequency of the generated signal, while U1 converts the AC signal into a square DC signal to drive the motor.
+
+The main issue encountered was the limited accessibility of the potentiometer.
