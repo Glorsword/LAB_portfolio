@@ -1,0 +1,20 @@
+Function:
+The purpose of this project is to create a small computer that collects and relays information from environmental, light, and sound sensors.
+
+Each section of the PCB, enclosed within a box, is treated as a separate circuit. This follows the divide-and-conquer principle to simplify the design process.
+
+The ESP module has a built-in antenna, which required a keep-out zone on the PCB. Power is supplied via USB.
+
+Design Details:
+
+The USB connector posed a challenge because the pin holes were very close together; however, this was successfully handled by carefully managing the design constraints.
+
+LEDs were added to indicate whether the ICs were powered.
+
+A 4-layer PCB was used to maintain a compact layout.
+
+Critical traces, such as the power lines connected to the battery and VBUS, were widened to improve signal integrity.
+
+Challenge:
+The project scale was significantly larger than our earlier test projects. It required two hierarchical sheets and careful management of trace distances.
+The antenna had to be positioned in a specific corner and shielded, so we extended the PCB slightly to provide protection.
